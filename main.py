@@ -29,6 +29,7 @@ def create_family_members():
 
     grandma_ana = Person.create(name="Ana",birthday=date(1967,12,20),is_relative=False)
     grandma_Rosa = Person.create(name="Rosa", birthday=date(1967, 12, 20), is_relative=False)
+	grandma_Pepe = Person.create(name="Pepe", birthday=date(1967, 12, 20), is_relative=True)
 
     tommy_dog=Pet.create(owner=uncle_tomy,name="Fido",animal_type="Perro")
     ana_cat=Pet.create(owner=grandma_ana,name="Pelusa",animal_type="Gato")
